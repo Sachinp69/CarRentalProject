@@ -252,5 +252,11 @@ public class Main{
         rentalSystem.addCar(car3);
 
         rentalSystem.menu();
+        new nothing();
     }
+}
+class nothing{
+   public nothing(){
+       System.out.print("HEY THIS CLASS DOES NOTHING HELPFUL");
+   }
 }
